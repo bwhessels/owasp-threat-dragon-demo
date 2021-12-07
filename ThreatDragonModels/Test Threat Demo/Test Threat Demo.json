@@ -1,0 +1,12 @@
+{
+  "summary": {
+    "title": "Test Threat Demo",
+    "owner": "Bart Hessels",
+    "description": "This is a test demo for web app ABC"
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [],
+    "reviewer": "Joost Kremers"
+  }
+}
