@@ -111,6 +111,78 @@
                   "class": "connection hasOpenThreats isInScope"
                 }
               }
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 424,
+                "y": 501
+              },
+              "angle": 0,
+              "id": "ffe44136-5428-404b-85e6-e9ac6315c5f9",
+              "z": 4,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "actor 3"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "41dfcc5b-f7a4-4a78-9bb9-69dbfceab68f"
+              },
+              "target": {
+                "id": "ffe44136-5428-404b-85e6-e9ac6315c5f9"
+              },
+              "vertices": [],
+              "id": "c23f5077-72f8-47f8-9b6f-3a206c4a731f",
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.736697218137373,
+                    "offset": 34.62728148755367
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "flow 4",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 5,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "Even worse",
+                  "type": "Information disclosure",
+                  "description": "Worse descriptions"
+                }
+              ],
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasOpenThreats isInScope"
+                }
+              }
             }
           ]
         },
